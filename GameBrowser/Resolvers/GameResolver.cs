@@ -170,10 +170,10 @@ namespace GameBrowser.Resolvers
                     return new[] { ".int", ".rom" };
 
                 case "Xbox":
-                    return new[] { ".disc", ".iso" };
+                    return new[] { ".disc", ".iso", ".xbe" };
 
                 case "Xbox 360":
-                    return new[] { ".disc" };
+                    return new[] { ".disc", ".iso", ".xex" };
 
                 case "Xbox One":
                     return new[] { ".disc" };
@@ -183,6 +183,9 @@ namespace GameBrowser.Resolvers
 
                 case "Nintendo 64":
                     return new[] { ".z64", ".v64", ".usa", ".jap", ".pal", ".rom", ".n64", ".zip" };
+
+                case "Nintendo 3DS":
+                    return new[] { ".3ds" };
 
                 case "Nintendo DS":
                     return new[] { ".nds", ".zip" };
@@ -212,19 +215,22 @@ namespace GameBrowser.Resolvers
                     return new[] { ".iso", ".dol", ".ciso", ".wbfs", ".wad", ".gcz" };
 
                 case "Nintendo Wii U":
-                    return new[] { ".disc", ".wud" };
+                    return new[] { ".disc", ".wud", ".rpx" };
+
+                case "Nintendo Switch":
+                    return new[] { ".nsp", ".xci", ".nsz", ".nca" };
 
                 case "DOS":
                     return new[] { ".gbdos", ".disc" };
 
                 case "Windows":
-                    return new[] { ".gbwin", ".disc" };
+                    return new[] { ".gbwin", ".disc", ".exe" };
 
                 case "Sega 32X":
                     return new[] { ".iso", ".bin", ".img", ".zip", ".32x" };
 
                 case "Sega CD":
-                    return new[] { ".iso", ".bin", ".img" };
+                    return new[] { ".iso", ".bin", ".img", ".chd" };
 
                 case "Dreamcast":
                     return new[] { ".chd", ".gdi", ".cdi" };
@@ -242,16 +248,16 @@ namespace GameBrowser.Resolvers
                     return new[] { ".smd", ".zip", ".md" };
 
                 case "Sega Saturn":
-                    return new[] { ".iso", ".bin", ".img" };
+                    return new[] { ".iso", ".bin", ".img", ".chd" };
 
                 case "Sony Playstation":
-                    return new[] { ".iso", ".cue", ".img", ".ps1", ".pbp" };
+                    return new[] { ".iso", ".cue", ".img", ".ps1", ".pbp", ".chd" };
 
                 case "PS2":
-                    return new[] { ".iso", ".bin" };
+                    return new[] { ".iso", ".bin", ".cso" };
 
                 case "PS3":
-                    return new[] { ".disc" };
+                    return new[] { ".disc", ".bin" };
 
                 case "PS4":
                     return new[] { ".disc" };
