@@ -32,6 +32,7 @@ namespace GameBrowser.Resolvers
                                                         {"Xbox One", 4920},
                                                         {"Neo Geo", 24},
                                                         {"Nintendo 64", 3},
+                                                        {"Nintendo 3DS", 4912},
                                                         {"Nintendo DS", 8},
                                                         {"Nintendo", 7}, 
                                                         {"Game Boy", 4},
@@ -41,6 +42,7 @@ namespace GameBrowser.Resolvers
                                                         {"Super Nintendo", 6},
                                                         {"Nintendo Wii", 9},
                                                         {"Nintendo Wii U", 38},
+                                                        {"Nintendo Switch", 4971},
                                                         {"PC", 1},
                                                         {"Sega 32X", 33},
                                                         {"Sega CD", 21},
@@ -141,6 +143,9 @@ namespace GameBrowser.Resolvers
 
                 case "Nintendo 64":
                     return "Nintendo64";
+                    
+                case "Nintendo 3DS":
+                    return "Nintendo3DS";
 
                 case "Nintendo DS":
                     return "NintendoDS";
@@ -171,6 +176,9 @@ namespace GameBrowser.Resolvers
 
                 case "Nintendo Wii U":
                     return "WiiU";
+                    
+                case "Nintendo Switch":
+                    return "Switch";
 
                 case "DOS":
                     return "DOS";
