@@ -203,7 +203,7 @@ namespace GameBrowser.Resolvers
                     return new[] { ".gbc", ".zip" };
 
                 case "Gamecube":
-                    return new[] { ".iso", ".bin", ".img", ".gcm", ".gcz" };
+                    return new[] { ".iso", ".bin", ".img", ".gcm", ".gcz", ".rvz" };
 
                 case "Super Nintendo":
                     return new[] { ".smc", ".zip", ".fam", ".rom", ".sfc", ".fig" };
@@ -212,7 +212,7 @@ namespace GameBrowser.Resolvers
                     return new[] { ".vb" };
 
                 case "Nintendo Wii":
-                    return new[] { ".iso", ".dol", ".ciso", ".wbfs", ".wad", ".gcz" };
+                    return new[] { ".iso", ".dol", ".ciso", ".wbfs", ".wad", ".gcz", ".rvz" };
 
                 case "Nintendo Wii U":
                     return new[] { ".disc", ".wud", ".rpx" };
